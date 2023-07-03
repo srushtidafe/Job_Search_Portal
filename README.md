@@ -21,20 +21,16 @@ In this project, we have four layers-
 
 
 >## Application Properties
-spring.datasource.url = jdbc:h2:mem:h2db
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.h2.console.enabled=true
-
-spring.jpa.properties.hibernate.show_sql=true
-spring.jpa.properties.hibernate.use_sql_comments=true
-spring.jpa.properties.hibernate.format_sql=true
+*spring.datasource.url = jdbc:h2:mem:h2db
+*spring.datasource.driverClassName=org.h2.Driver
+*spring.datasource.username=sa
+*spring.datasource.password=
+*spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+*spring.h2.console.enabled=true
+*spring.jpa.properties.hibernate.show_sql=true
+*spring.jpa.properties.hibernate.use_sql_comments=true
+*spring.jpa.properties.hibernate.format_sql=true
  
-
-
-
 >## Project Summary
 *CRUD operation on Job entity and add validation on entity class. Use spring boot validation using annotations*
 In job class
