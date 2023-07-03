@@ -20,7 +20,17 @@ In this project, we have four layers-
  **Repository** - This is the interface class that extends the crudRepo class. basically, this layer maintains the h2-database thing on which CRUD operations are performed
 
 
->## Data Structure used in my project
+>## Application Properties
+spring.datasource.url = jdbc:h2:mem:h2db
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
+
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.use_sql_comments=true
+spring.jpa.properties.hibernate.format_sql=true
  
 
 
